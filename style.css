@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+}
+nav
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(3, 22, 22, 0.74);
+    padding: 10px;
+}
+.container nav .logo img{
+    width: 70px;
+    margin-left:20px;
+    
+}
+.container nav  .nav-links a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.container nav  .nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+    text-transform: uppercase;
+}
+.container1{
+    background:url(C:\Users\Anand\Desktop\profilecard\images\back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85.7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container3{
+    border-radius: 40px;
+    background: rgba(39, 37, 119, 0.555);
+    width:50%;
+    height: 50%;
+    text-align: center;
+}
+.container3 h1{
+    margin-top: 80px;
+}
+.container3 button{
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    background: rgba(55, 0, 255, 0.733);
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    border: 1px solid black;   
+}
+
+
+
+
+
+
+
+
+
+
